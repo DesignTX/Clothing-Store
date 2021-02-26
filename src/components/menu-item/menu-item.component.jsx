@@ -1,8 +1,9 @@
 import React from 'react';
 
+import './menu-item.styles.scss';
 
 //Destructured by {title} which is equal to props.title
-import MenuItem = ({ title }) => (
+const MenuItem = ({ title }) => (
     <div className='menu-item'>
         <div className='content'>
             <h1 className='title'>{title}</h1>
