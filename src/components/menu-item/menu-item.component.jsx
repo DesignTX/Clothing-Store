@@ -4,7 +4,7 @@ import './menu-item.styles.scss';
 
 //Destructured by {title} which is equal to props.title
 const MenuItem = ({ title, imageUrl }) => (
-    //javascript template string, allows to dynamically create styles on component
+    //react gives extra html mark up element called style, allows to dynamically create styles on component
     <div style={{
         backgroundImage: `url(${imageUrl})`
     }} className='menu-item'>
